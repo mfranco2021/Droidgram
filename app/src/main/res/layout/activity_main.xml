@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monse_2700" />
+
+
+    <TextView
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oakland,Ca"
+
+        />
+
+    <ImageView
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        android:src="@drawable/monse"
+/>
+    <TextView
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android: android:paddingLeft = "8dp"
+        android:text="#I love the Android life"
+        />
+
+    <TextView
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:android:paddingLeft = "10dp"
+        android:text=" Likes: 300"
+        android:id="@+id/likes_text_view"
+        />
+
+    < ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:backgroundTint="@android:color/black"
+        android:scr="@drawable/like"
+        android:onClick="increase"
+        />
+    < ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:backgroundTint="@android:color/black"
+        android:scr="@drawable/like"
+        android:onClick="decrease"
+        />
+
+
+</LinearLayout>
